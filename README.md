@@ -40,9 +40,7 @@ A saída do comando "git status" geralmente contém três seções principais:
 Além disso, o comando "git status" pode fornecer informações adicionais sobre as ramificações atuais, como a ramificação atual e as ramificações que estão à frente ou atrás da atual. 
 O comando "git status" é uma ferramenta indispensável para qualquer desenvolvedor que utiliza Git. Ele permite monitorar as alterações no repositório, identificar o estado dos arquivos e tomar decisões de gerenciamento de commits de forma eficiente.
 
-===================================================================================================
-GITHUB
-
+====================================================================
 ## inicia o git no projeto
 git init
 

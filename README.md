@@ -41,31 +41,33 @@ Além disso, o comando "git status" pode fornecer informações adicionais sobre
 O comando "git status" é uma ferramenta indispensável para qualquer desenvolvedor que utiliza Git. Ele permite monitorar as alterações no repositório, identificar o estado dos arquivos e tomar decisões de gerenciamento de commits de forma eficiente.
 
 ====================================================================
-## inicia o git no projeto
+## comandos iniciais
+
+### inicia o git no projeto
 git init
 
-## adiciona todos os arquivos ao git. para adicionar somente um arquivo especificar o nome do arquivo no lugar do "."
+### adiciona todos os arquivos ao git. para adicionar somente um arquivo especificar o nome do arquivo no lugar do "."
 git add .
 
 
 git commit -m "informar alguma coisa sobre o projeto"
 
 
-## configuração para informar usuario do git no computador. deve solicitar somente na primeira vez que associa o usuario no git do computador
+### configuração para informar usuario do git no computador. deve solicitar somente na primeira vez que associa o usuario no git do computador
 git config --global user.mail "email de cadastro do git"
 git config --global user.name "meu nome"
 
 
 git branch -m main     
 
-## sincronizar o repositorio local no github
+### sincronizar o repositorio local no github
 git remote add origin git@github.com:rodrigomorau/financas.git
 
-## verificar o apelido do repositorio
+### verificar o apelido do repositorio
 git remote -v
 
-## enviar os arquivos para o github
+### enviar os arquivos para o github
 git push -u origin main
 
-## para clonar um repositório
+### para clonar um repositório
 git clone url
